@@ -1,0 +1,128 @@
+{
+  "scenario": "thermal_regulation",
+  "description": "Thermal routing policy balancing load reduction against power budget.",
+  "bit_labels": [
+    "link_ab",
+    "link_bc",
+    "link_cd",
+    "pcm_a",
+    "pcm_b",
+    "radiator"
+  ],
+  "best_bitstring": "111011",
+  "best_policy": {
+    "link_ab": true,
+    "link_bc": true,
+    "link_cd": true,
+    "pcm_a": false,
+    "pcm_b": true,
+    "radiator": true
+  },
+  "best_energy": 0.0,
+  "top_candidates": [
+    {
+      "rank": 1,
+      "bitstring": "111011",
+      "energy": 0.0,
+      "policy": {
+        "link_ab": true,
+        "link_bc": true,
+        "link_cd": true,
+        "pcm_a": false,
+        "pcm_b": true,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 2,
+      "bitstring": "111101",
+      "energy": 0.0,
+      "policy": {
+        "link_ab": true,
+        "link_bc": true,
+        "link_cd": true,
+        "pcm_a": true,
+        "pcm_b": false,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 3,
+      "bitstring": "111111",
+      "energy": 0.007500000000000014,
+      "policy": {
+        "link_ab": true,
+        "link_bc": true,
+        "link_cd": true,
+        "pcm_a": true,
+        "pcm_b": true,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 4,
+      "bitstring": "111001",
+      "energy": 0.01750000000000003,
+      "policy": {
+        "link_ab": true,
+        "link_bc": true,
+        "link_cd": true,
+        "pcm_a": false,
+        "pcm_b": false,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 5,
+      "bitstring": "011111",
+      "energy": 0.029999999999999985,
+      "policy": {
+        "link_ab": false,
+        "link_bc": true,
+        "link_cd": true,
+        "pcm_a": true,
+        "pcm_b": true,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 6,
+      "bitstring": "101111",
+      "energy": 0.029999999999999985,
+      "policy": {
+        "link_ab": true,
+        "link_bc": false,
+        "link_cd": true,
+        "pcm_a": true,
+        "pcm_b": true,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 7,
+      "bitstring": "110111",
+      "energy": 0.029999999999999985,
+      "policy": {
+        "link_ab": true,
+        "link_bc": true,
+        "link_cd": false,
+        "pcm_a": true,
+        "pcm_b": true,
+        "radiator": true
+      }
+    },
+    {
+      "rank": 8,
+      "bitstring": "111110",
+      "energy": 0.06750000000000002,
+      "policy": {
+        "link_ab": true,
+        "link_bc": true,
+        "link_cd": true,
+        "pcm_a": true,
+        "pcm_b": true,
+        "radiator": false
+      }
+    }
+  ]
+}

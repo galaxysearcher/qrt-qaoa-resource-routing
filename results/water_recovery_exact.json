@@ -1,0 +1,128 @@
+{
+  "scenario": "water_recovery",
+  "description": "Water and oxygen routing policy with power and flow-balance constraints.",
+  "bit_labels": [
+    "inlet",
+    "pretreat",
+    "splitter",
+    "water_store",
+    "oxygen_step",
+    "recycle"
+  ],
+  "best_bitstring": "101011",
+  "best_policy": {
+    "inlet": true,
+    "pretreat": false,
+    "splitter": true,
+    "water_store": false,
+    "oxygen_step": true,
+    "recycle": true
+  },
+  "best_energy": -1.498,
+  "top_candidates": [
+    {
+      "rank": 1,
+      "bitstring": "101011",
+      "energy": -1.498,
+      "policy": {
+        "inlet": true,
+        "pretreat": false,
+        "splitter": true,
+        "water_store": false,
+        "oxygen_step": true,
+        "recycle": true
+      }
+    },
+    {
+      "rank": 2,
+      "bitstring": "111011",
+      "energy": -1.402,
+      "policy": {
+        "inlet": true,
+        "pretreat": true,
+        "splitter": true,
+        "water_store": false,
+        "oxygen_step": true,
+        "recycle": true
+      }
+    },
+    {
+      "rank": 3,
+      "bitstring": "110100",
+      "energy": 0.6820000000000004,
+      "policy": {
+        "inlet": true,
+        "pretreat": true,
+        "splitter": false,
+        "water_store": true,
+        "oxygen_step": false,
+        "recycle": false
+      }
+    },
+    {
+      "rank": 4,
+      "bitstring": "111000",
+      "energy": 0.722,
+      "policy": {
+        "inlet": true,
+        "pretreat": true,
+        "splitter": true,
+        "water_store": false,
+        "oxygen_step": false,
+        "recycle": false
+      }
+    },
+    {
+      "rank": 5,
+      "bitstring": "111010",
+      "energy": 1.002,
+      "policy": {
+        "inlet": true,
+        "pretreat": true,
+        "splitter": true,
+        "water_store": false,
+        "oxygen_step": true,
+        "recycle": false
+      }
+    },
+    {
+      "rank": 6,
+      "bitstring": "101010",
+      "energy": 1.0499999999999998,
+      "policy": {
+        "inlet": true,
+        "pretreat": false,
+        "splitter": true,
+        "water_store": false,
+        "oxygen_step": true,
+        "recycle": false
+      }
+    },
+    {
+      "rank": 7,
+      "bitstring": "101000",
+      "energy": 1.25,
+      "policy": {
+        "inlet": true,
+        "pretreat": false,
+        "splitter": true,
+        "water_store": false,
+        "oxygen_step": false,
+        "recycle": false
+      }
+    },
+    {
+      "rank": 8,
+      "bitstring": "100100",
+      "energy": 1.4499999999999997,
+      "policy": {
+        "inlet": true,
+        "pretreat": false,
+        "splitter": false,
+        "water_store": true,
+        "oxygen_step": false,
+        "recycle": false
+      }
+    }
+  ]
+}

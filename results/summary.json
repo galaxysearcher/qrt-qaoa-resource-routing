@@ -1,0 +1,43 @@
+[
+  {
+    "scenario": "water_recovery",
+    "best_bitstring": "101011",
+    "best_energy": -1.498,
+    "best_policy": {
+      "inlet": true,
+      "pretreat": false,
+      "splitter": true,
+      "water_store": false,
+      "oxygen_step": true,
+      "recycle": true
+    }
+  },
+  {
+    "scenario": "thermal_regulation",
+    "best_bitstring": "111011",
+    "best_energy": 0.0,
+    "best_policy": {
+      "link_ab": true,
+      "link_bc": true,
+      "link_cd": true,
+      "pcm_a": false,
+      "pcm_b": true,
+      "radiator": true
+    }
+  },
+  {
+    "scenario": "acid_regolith",
+    "best_bitstring": "11110011",
+    "best_energy": -3.4609999999999994,
+    "best_policy": {
+      "acid_a": true,
+      "acid_b": true,
+      "circulation": true,
+      "valve": true,
+      "radiator": false,
+      "saver": false,
+      "filter": true,
+      "product": true
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[project]
+name = "qrt-qaoa-resource-routing"
+version = "0.1.0"
+description = "QAOA-style binary optimization examples for modular ISRU resource-routing policies."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+qiskit = [
+  "qiskit>=1.2,<2.0",
+  "qiskit-aer>=0.14,<0.16",
+]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

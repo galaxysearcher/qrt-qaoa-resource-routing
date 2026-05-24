@@ -1,0 +1,148 @@
+{
+  "scenario": "acid_regolith",
+  "description": "Acid-regolith processing policy with yield, corrosion, acid-loss, and product-step tradeoffs.",
+  "bit_labels": [
+    "acid_a",
+    "acid_b",
+    "circulation",
+    "valve",
+    "radiator",
+    "saver",
+    "filter",
+    "product"
+  ],
+  "best_bitstring": "11110011",
+  "best_policy": {
+    "acid_a": true,
+    "acid_b": true,
+    "circulation": true,
+    "valve": true,
+    "radiator": false,
+    "saver": false,
+    "filter": true,
+    "product": true
+  },
+  "best_energy": -3.4609999999999994,
+  "top_candidates": [
+    {
+      "rank": 1,
+      "bitstring": "11110011",
+      "energy": -3.4609999999999994,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": true,
+        "valve": true,
+        "radiator": false,
+        "saver": false,
+        "filter": true,
+        "product": true
+      }
+    },
+    {
+      "rank": 2,
+      "bitstring": "11100011",
+      "energy": -3.1439999999999997,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": true,
+        "valve": false,
+        "radiator": false,
+        "saver": false,
+        "filter": true,
+        "product": true
+      }
+    },
+    {
+      "rank": 3,
+      "bitstring": "11010011",
+      "energy": -3.0319999999999996,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": false,
+        "valve": true,
+        "radiator": false,
+        "saver": false,
+        "filter": true,
+        "product": true
+      }
+    },
+    {
+      "rank": 4,
+      "bitstring": "11110010",
+      "energy": -2.9649999999999994,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": true,
+        "valve": true,
+        "radiator": false,
+        "saver": false,
+        "filter": true,
+        "product": false
+      }
+    },
+    {
+      "rank": 5,
+      "bitstring": "11110111",
+      "energy": -2.8389999999999995,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": true,
+        "valve": true,
+        "radiator": false,
+        "saver": true,
+        "filter": true,
+        "product": true
+      }
+    },
+    {
+      "rank": 6,
+      "bitstring": "11100010",
+      "energy": -2.6479999999999997,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": true,
+        "valve": false,
+        "radiator": false,
+        "saver": false,
+        "filter": true,
+        "product": false
+      }
+    },
+    {
+      "rank": 7,
+      "bitstring": "11110000",
+      "energy": -2.6199999999999997,
+      "policy": {
+        "acid_a": true,
+        "acid_b": true,
+        "circulation": true,
+        "valve": true,
+        "radiator": false,
+        "saver": false,
+        "filter": false,
+        "product": false
+      }
+    },
+    {
+      "rank": 8,
+      "bitstring": "10110011",
+      "energy": -2.549,
+      "policy": {
+        "acid_a": true,
+        "acid_b": false,
+        "circulation": true,
+        "valve": true,
+        "radiator": false,
+        "saver": false,
+        "filter": true,
+        "product": true
+      }
+    }
+  ]
+}

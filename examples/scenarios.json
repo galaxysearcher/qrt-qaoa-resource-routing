@@ -1,0 +1,39 @@
+{
+  "scenarios": [
+    {
+      "name": "water_recovery",
+      "variables": [
+        "inlet",
+        "pretreat",
+        "splitter",
+        "water_store",
+        "oxygen_step",
+        "recycle"
+      ]
+    },
+    {
+      "name": "thermal_regulation",
+      "variables": [
+        "link_ab",
+        "link_bc",
+        "link_cd",
+        "pcm_a",
+        "pcm_b",
+        "radiator"
+      ]
+    },
+    {
+      "name": "acid_regolith",
+      "variables": [
+        "acid_a",
+        "acid_b",
+        "circulation",
+        "valve",
+        "radiator",
+        "saver",
+        "filter",
+        "product"
+      ]
+    }
+  ]
+}
